@@ -617,7 +617,7 @@ Your job is to FIND, VERIFY, ORGANIZE and EXPLAIN.
 # ============================================================
 
 model = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash",
+    model="gemini-3.5-flash-lite",
     temperature=0,
     google_api_key=GOOGLE_API_KEY,
 )
