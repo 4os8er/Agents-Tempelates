@@ -1,0 +1,11 @@
+python -m venv venv
+
+venv\Scripts\activate
+
+python -m pip install --upgrade pip
+
+pip install langchain langchain-core langchain-community
+
+pip install langchain-Google-genai
+
+pip install python-dotenv
